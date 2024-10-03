@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="1050" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QwWeKiBOfNDjtjBt6EqK-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CU-001&amp;nbsp;&lt;span style=&quot;font-size:11.0pt;mso-bidi-font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;&lt;br/&gt;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Arial;mso-ansi-language:&lt;br/&gt;ES-AR;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;–&lt;/span&gt;&amp;nbsp;Listar préstamos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="475" y="160" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="npoUZO0YHfbCS-P_uri0-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="rFRaM7Q8XrhLwLA-DCMw-6" target="QwWeKiBOfNDjtjBt6EqK-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="110" as="targetPoint" />
+            <mxPoint x="400" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npoUZO0YHfbCS-P_uri0-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;startArrow=none;startFill=0;" parent="1" source="QwWeKiBOfNDjtjBt6EqK-16" target="QwWeKiBOfNDjtjBt6EqK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QwWeKiBOfNDjtjBt6EqK-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 500%;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;InterfazPréstamo&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;table_prest_vigente&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;table_prest_vencido&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;table_prest_devuelto&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bt_agregarPrest&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bt_modificarPrest&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bt_eliminarPrest&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bt_mostrarHistorial&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;solicitarlLista()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;ordenarLista()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="400" width="260" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="QwWeKiBOfNDjtjBt6EqK-17" value="" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="410" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QwWeKiBOfNDjtjBt6EqK-20" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 500%;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ControlPréstamo&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_prest&amp;nbsp;: Préstamo&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;consultaPrest()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;enviarLista()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="310" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QwWeKiBOfNDjtjBt6EqK-21" value="" style="shape=umlControl;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="640" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rFRaM7Q8XrhLwLA-DCMw-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; line-height: 500%;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Préstamo&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;id_prest&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;nombreElem&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;nombrePrestatario&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;cursoPrestatario&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fecha_prest&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fecha_dev_prevista&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;fecha_dev&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;crearLista()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="130" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rFRaM7Q8XrhLwLA-DCMw-7" value="" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
