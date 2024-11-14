@@ -40,26 +40,23 @@ NULL,
 DROP TABLE IF EXISTS `prestamos`;
 CREATE TABLE `prestamos` (
   `id_prest` int NOT NULL AUTO_INCREMENT,
-  `nombre_elem` varchar(30) NOT NULL,
+  `fecha_prest` datetime DEFAULT NULL,
   `nombre_prestatario` varchar(45) DEFAULT NULL,
   `apellido_prestatario` varchar(45) NOT NULL,
   `curso_prestatario` varchar(15) NOT NULL,
-  `fecha_prest` datetime DEFAULT NULL,
+  `nombre_elem` varchar(30) NOT NULL,
   `fecha_dev_prevista` datetime DEFAULT NULL,
   `fecha_dev` datetime DEFAULT NULL,
   PRIMARY KEY (`id_prest`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Consulta INSERT para probar el agregado de registros a la tabla
-INSERT INTO `prestamos` 
-VALUES (1,
-'Notebook',
-'Lucas',
-'Ferrera',
-'7A',
-'2024-12-02 07:45:00',
-'2024-12-02 09:55:00',
-NULL);
+INSERT INTO `prestamos` VALUES 
+(1,'2024-11-12 07:45:00','Lucas','Ferrera','7°A','Netbook 17','2024-11-14 12:05:00',NULL),
+(4,'2024-11-10 10:35:00','Alejandro','Torres','7°B','Proyector','2024-11-10 12:50:00',NULL),
+(6,'2024-11-12 09:05:00','Pepe','Goméz','7°A','Notebook 4','2024-12-27 10:35:00',NULL),
+(7,'2024-11-12 16:29:09','Matías','Vivas','PROFESOR','Televisor','2024-11-12 18:05:00',NULL),
+(8,'2024-11-13 18:43:52','Rosa','Rodríguez','2°B','Parlante','2024-11-15 12:05:00',NULL);
 
 -- -----------------------------------------------------
 -- PRESTAMOS_LIBROS
@@ -69,11 +66,11 @@ NULL);
 DROP TABLE IF EXISTS `prestamos_libros`;
 CREATE TABLE `prestamos_libros` (
   `id_prest` int NOT NULL AUTO_INCREMENT,
-  `id_libro` int NOT NULL,
+  `fecha_prest` datetime DEFAULT NULL,
   `nombre_prestatario` varchar(45) DEFAULT NULL,
   `apellido_prestatario` varchar(45) NOT NULL,
   `curso_prestatario` varchar(15) NOT NULL,
-  `fecha_prest` datetime DEFAULT NULL,
+  `id_libro` int NOT NULL,
   `fecha_dev_prevista` datetime DEFAULT NULL,
   `fecha_dev` datetime DEFAULT NULL,
   PRIMARY KEY (`id_prest`),
@@ -82,15 +79,8 @@ CREATE TABLE `prestamos_libros` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Consulta INSERT para probar el agregado de registros a la tabla
-INSERT INTO `prestamos_libros` 
-VALUES (1,
-1,
-'Lucas',
-'Ferrera',
-'7A',
-'2024-09-17 00:00:00',
-'2024-10-01 00:00:00',
-'2024-09-30 09:05:00');
+INSERT INTO `prestamos_libros` VALUES 
+(1,'2024-11-12 13:45:00','Lucas','Ferrera','7°A',1,'2024-11-13 07:45:00','2024-09-30 09:05:00');
 
 -- -----------------------------------------------------
 -- RESERVAS
@@ -100,21 +90,15 @@ VALUES (1,
 DROP TABLE IF EXISTS `reservas`;
 CREATE TABLE `reservas` (
   `id_reserva` int NOT NULL AUTO_INCREMENT,
-  `nombre_elem` varchar(30) NOT NULL,
   `nombre_prestatario` varchar(45) DEFAULT NULL,
   `apellido_prestatario` varchar(45) NOT NULL,
   `curso_prestatario` varchar(15) NOT NULL,
+  `nombre_elem` varchar(30) NOT NULL,
   `fecha_reserva` datetime DEFAULT NULL,
-  `fecha_dev_prevista` datetime DEFAULT NULL,
+  `fecha_dev` datetime DEFAULT NULL,
   PRIMARY KEY (`id_reserva`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- Consulta INSERT para probar el agregado de registros a la tabla
-INSERT INTO `reservas` 
-VALUES (2,
-'Televisor',
-'Pedro',
-'Torres',
-'3A',
-'2024-10-22 10:35:00',
-'2024-10-22 12:05:00');
+INSERT INTO `reservas` VALUES 
+(2,'Pedro','Torres','3°A','Televisor','2024-12-18 15:05:00','2024-12-18 16:35:00');
